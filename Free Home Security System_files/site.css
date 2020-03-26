@@ -1,0 +1,296 @@
+/*Make sure your selectors are very specific, you can accidentally overide builder css if you are not careful*/
+/*Do not edit positioning, width, height in CSS, set that in the markup*/
+/*CSS Changes, are somewhat permanent, user cannot change these, they can overide them via element inline style, but thats about it*/
+
+/* site */
+
+
+.promag.default .text-plugin{
+	font-family: 'Cabin', serif;
+	font-size: 14px;
+	color: #000;
+}
+.promag.default h1,
+.promag.default h2, 
+.promag.default h3, 
+.promag.default h4,
+.promag.default h5,
+.promag.default h6{
+	margin: 0 0 10px 0;
+	line-height: 100%;
+	font-family: 'Cabin', sans-serif;
+}
+.promag.default h1{
+	color: #ffffff;
+	font-size: 53px;
+	font-family: 'Gentium Basic', serif;
+	font-weight: normal;
+	line-height: 1.4;
+}
+.promag.default h2{
+	color: #c90d1d;
+	font-size: 48px;
+}
+.promag.default h2.category{
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 20px;
+}
+.promag.default h2.slogan{
+	font-size: 26px;
+	height: 32px;
+	color: #ffffff;
+	letter-spacing: 3px
+}
+.promag.default h2.slogan span.cursive{
+	font-family: 'Allura', cursive;
+	font-weight: 300;
+	font-size: 51px;
+	letter-spacing: 0;
+}
+.promag.default h3{
+	color: #c90d1d;
+	font-size: 20px;
+}
+.promag.default h4{
+	color: #c90d1d;
+	font-size: 30px;
+}
+.promag.default h5,
+.promag.default h6{
+	font-size: 20px;
+	color: #545c68;
+}
+.promag.default .text-plugin ul{
+	margin: 0;
+}
+.promag.default ul.tick{
+	padding-left: 0;
+}
+.promag.default ul.tick li{
+	padding-left: 30px;
+	background: url('assets/tick.gif') no-repeat 8px 6px;
+	list-style-type: none;
+}
+.promag.default .divider{
+	border-bottom: 1px #545c68 solid;
+}
+.promag.default .center-align{
+	text-align: center;
+}
+.promag.default .extra-text{
+	font-size: 20px;
+}
+.promag.default .footer-text{
+	color: #545c68;
+}
+.promag.default .grey{
+	color: #545c68;
+}
+.promag.default .border-box{
+	border: 1px solid #c90d1d;
+}
+.promag.default .no-list{
+	padding: 0;
+	margin-right: 0;
+	list-style-type: none;
+}
+
+/* header */
+.promag.default .header-bg{
+	background: url('assets/promag-header-bg.png') repeat-x top;
+}
+.promag.default.home{
+	background: #545c68 url('assets/promag-home-bg.jpg') no-repeat center top;
+}
+.promag.default.about{
+	background: #545c68 url('assets/promag-about-bg.jpg') no-repeat center top;
+}
+.promag.default.services{
+	background: #545c68 url('assets/promag-services-bg.jpg') no-repeat center top;
+}
+.promag.default.contact{
+	background: #545c68 url('assets/promag-contact-bg.jpg') no-repeat center top;
+}
+.promag.default .slogan-bg{
+	background: rgba(201,13,29,0.8);
+}
+
+/*content*/
+.promag.default .content-bg{
+	background: #fff;
+}
+
+/*footer*/
+.promag.default .footer-bg{
+	background: #fff;
+}
+
+
+/****************/
+/* neo main nav */
+/****************/
+.promag.default .navigation-2-plugin .neo-asset-inner ul {
+	font-family: Cabin, sans-serif;
+}
+.promag.default .navigation-2-plugin .neo-asset-inner > ul > li {
+	padding-top: 6px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-right: 50px;
+	margin-bottom: 0;
+	background-color: transparent;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+
+	border-left-color: rgb(51, 51, 51);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(51, 51, 51);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: rgb(51, 51, 51);
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-top-color: rgb(51, 51, 51);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.promag.default .navigation-2-plugin .neo-asset-inner > ul > li > a {
+	color: #fff;
+}
+.promag.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-hover {
+	background-color: transparent;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+}
+.promag.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-hover > a {
+	color: rgba(255,255,255,0.8);
+}
+.promag.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-active {
+	background-color: transparent;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	/*Esteban*/
+	padding-top: 0;
+	/*END*/
+}
+.promag.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-active > a {
+	color: #fff;
+}
+
+/***************/
+/* neo sub nav */
+/***************/
+.promag.default .navigation-2-plugin.sub-nav-fixed-plugin ul ul > li {
+	width: 130px;
+}
+.promag.default .navigation-2-plugin ul ul > li {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-bottom: 0;
+	background-color: #c90d1d;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: 'Cabin', sans-serif;
+	text-align: left;
+
+	border-left-color: rgb(51, 51, 51);
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: rgb(51, 51, 51);
+	border-right-style: none;
+	border-right-width: 0;
+	border-bottom-color: #fff;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: rgb(51, 51, 51);
+	border-top-style: none;
+	border-top-width: 0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.promag.default .navigation-2-plugin ul ul > li > a {
+	color: #fff;
+}
+.promag.default .navigation-2-plugin ul ul > li.k-state-hover {
+	background-color: #c90d1d;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: 'Cabin', sans-serif;
+	text-align: left;
+}
+.promag.default .navigation-2-plugin ul ul > li.k-state-hover > a {
+	color: rgba(255,255,255,0.8);
+}
+.promag.default .navigation-2-plugin ul ul > li.k-state-active {
+	background-color: #c90d1d;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: 'Cabin', sans-serif;
+	text-align: left;
+}
+.promag.default .navigation-2-plugin ul ul > li.k-state-active > a {
+	color: rgba(255,255,255,0.8);
+} 
+
+
+
+/* CONTACT */
+/*header*/
+
+/* labels style */
+.promag.default .web_com_custom_form label{
+	font-weight: normal;
+	margin-bottom: 0;
+	color: #000;
+}
+
+/*CUSTOM*/
+/* first & last name */
+.promag.default .web_com_custom_form .FirstName label,
+.promag.default .web_com_custom_form .LastName label{
+	font-size: 12px !important;
+	color: #000;
+}
+.promag.default .web_com_custom_form input[type='text'],
+.promag.default .web_com_custom_form textarea{
+	border: 1px solid #000;
+	border-radius: 10px;
+	background:  #fff; 
+}
+
+.promag.default .web_com_custom_form input[type='submit']{
+	color: #fff;
+	background: #c90d1d; 
+	font-size: 16px;
+	padding: 3px 25px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #c90d1d;
+	border-radius: 8px;
+}
+
+.promag.default textarea.form-element{
+	height: 60px;
+}
+
+
